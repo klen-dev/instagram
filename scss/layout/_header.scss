@@ -1,0 +1,68 @@
+@import "../abstracts/mixin";
+
+.header{
+    border-bottom: 1px solid rgb(239, 239, 239);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    @include df-ac;
+    gap: 6px;
+    a{
+        @include df-ac;
+    }
+}
+
+.search{
+    flex: 1;
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    input{
+        padding: 5px 16px;
+        border-radius: 8px;
+        border-color: transparent;
+        background-color: rgb(239, 239, 239);
+        max-width: 270px;
+        display: inline-block;
+        border-radius: 8px 0px 0px 8px;
+    }
+    button{
+        border-radius: 0px 8px 8px 0px;
+        padding: 0 15px;
+    }
+}
+
+.menus{
+    display: flex;
+    flex: 33%;
+    max-width: 33%;
+    justify-content: space-evenly;
+    margin: 16px 0;
+
+    svg{
+        width: 24px;
+        height: 24px;
+    }
+    .acc_logo{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .search{
+        display: none;
+    }
+    .menus{
+        flex: 50%;
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+button {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 90%;
+  }
+}
+.header {
+  border-bottom: 1px solid rgb(239, 239, 239);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  flex: 1;
+}
+.search form {
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  padding: 5px 16px;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: rgb(239, 239, 239);
+  max-width: 270px;
+  display: inline-block;
+  border-radius: 8px 0px 0px 8px;
+}
+.search button {
+  border-radius: 0px 8px 8px 0px;
+  padding: 0 15px;
+}
+
+.menus {
+  display: flex;
+  flex: 33%;
+  max-width: 33%;
+  justify-content: space-evenly;
+  margin: 16px 0;
+}
+.menus svg {
+  width: 24px;
+  height: 24px;
+}
+.menus .acc_logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    display: none;
+  }
+  .menus {
+    flex: 50%;
+    max-width: 50%;
+  }
+}/*# sourceMappingURL=index.css.map */
