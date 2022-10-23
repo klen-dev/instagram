@@ -63,6 +63,7 @@ section {
             width: 510px;
             border: 1px solid rgb(239, 239, 239);
             border-radius: 8px;
+            margin-bottom: 10px;
             .section-post__head {
                 padding: 10px;
                 display: flex;
@@ -95,6 +96,46 @@ section {
             }
             video{
                 object-fit: cover;
+            }
+            .section-post__icons{
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 10px;
+            }
+            > h6{
+                font-size: 14px;
+                font-weight: 600;
+                padding: 5px 10px;
+                span{
+                    font-weight: 400;
+                }
+            }
+            > p{
+                color: #c7c7c7;
+                font-size: 12px;
+                font-weight: 300;
+                padding: 5px 10px;
+                margin-bottom: 5px;
+                span{
+                    font-weight: 600;
+                    color: black;
+                }
+            }
+            form{
+                border-top: 1px solid #FAFAFA;
+                display: flex;
+                padding: 15px 10px;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+
+                input{
+                    flex: 1;
+                    border: none;
+                }
+                a{
+                    color: #0095f6;
+                }
             }
         }
     }
@@ -237,6 +278,9 @@ aside {
         flex: 100%;
         justify-content: center;
         .section__histories{
+            max-width: 510px;
+        }
+        .section__posts{
             max-width: 510px;
         }
     }

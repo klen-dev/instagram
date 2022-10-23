@@ -159,6 +159,7 @@ section .section__posts .section-post {
   width: 510px;
   border: 1px solid rgb(239, 239, 239);
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 section .section__posts .section-post .section-post__head {
   padding: 10px;
@@ -193,6 +194,45 @@ section .section__posts .section-post .section-post__head .section-post__name p 
 section .section__posts .section-post video {
   -o-object-fit: cover;
      object-fit: cover;
+}
+section .section__posts .section-post .section-post__icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+section .section__posts .section-post > h6 {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+section .section__posts .section-post > h6 span {
+  font-weight: 400;
+}
+section .section__posts .section-post > p {
+  color: #c7c7c7;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+section .section__posts .section-post > p span {
+  font-weight: 600;
+  color: black;
+}
+section .section__posts .section-post form {
+  border-top: 1px solid #FAFAFA;
+  display: flex;
+  padding: 15px 10px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+section .section__posts .section-post form input {
+  flex: 1;
+  border: none;
+}
+section .section__posts .section-post form a {
+  color: #0095f6;
 }
 
 aside {
@@ -312,6 +352,9 @@ aside .aside-rek__bottom > h6 {
     justify-content: center;
   }
   section .section__histories {
+    max-width: 510px;
+  }
+  section .section__posts {
     max-width: 510px;
   }
   aside {
