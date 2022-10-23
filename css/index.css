@@ -152,7 +152,7 @@ section {
   flex: 60%;
 }
 section .section__histories {
-  width: 510px;
+  max-width: 510px;
   height: 119px;
   background-color: #ffffff;
   border: 1px solid rgb(239, 239, 239);
@@ -160,8 +160,7 @@ section .section__histories {
   display: flex;
   flex-direction: row;
   align-items: center;
-  overflow: scroll;
-  overflow-y: hidden;
+  overflow-x: scroll;
   overflow-x: hidden;
 }
 section .section__histories .section__histories-history {
