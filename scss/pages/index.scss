@@ -228,14 +228,17 @@ aside {
 
 @media screen and (max-width:1000px){
     .main-container{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+       
     }
     section{
+        max-width: 500px;
         flex: 100%;
-        max-width: 100%;
         justify-content: center;
+        .section__histories{
+            max-width: 510px;
+        }
     }
     aside{
         display: none;
