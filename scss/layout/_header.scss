@@ -61,6 +61,22 @@
     }
 }
 
+.menus-2{
+    display: none;
+    flex: 33%;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    svg{
+        width: 24px;
+        height: 24px;
+    }
+    .acc_logo{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+}
+
 @media screen and (max-width:600px) {
     .container{
         padding: 0 0;
@@ -71,6 +87,20 @@
     .menus{
         flex: 50%;
         max-width: 50%;
+        justify-content: flex-end;
+        .icon-box-2{
+            display: none;
+        }
+    }
+    .menus-2{
+        display: block;
+        display: flex;
+        background-color: #ffffff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
     }
 }
 
