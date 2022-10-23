@@ -95,6 +95,9 @@ input:focus {
 }
 
 @media screen and (max-width: 600px) {
+  .container {
+    padding: 0 0;
+  }
   .search {
     display: none;
   }
@@ -341,6 +344,11 @@ aside .aside-rek__bottom > h6 {
   opacity: 0.5;
 }
 
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 1000px) {
   .main-container {
     padding-left: 0;
@@ -356,6 +364,9 @@ aside .aside-rek__bottom > h6 {
   }
   section .section__posts {
     max-width: 510px;
+  }
+  section .section__histories {
+    width: 100%;
   }
   aside {
     display: none;

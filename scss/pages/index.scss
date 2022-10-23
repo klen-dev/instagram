@@ -267,11 +267,16 @@ aside {
     }
 }
 
+@media screen and (max-width:600px){
+    .main-container{
+        padding: 0;
+    }
+}
+
 @media screen and (max-width:1000px){
     .main-container{
         padding-left: 0;
         padding-right: 0;
-       
     }
     section{
         max-width: 500px;
@@ -282,6 +287,9 @@ aside {
         }
         .section__posts{
             max-width: 510px;
+        }
+        .section__histories{
+            width: 100%;
         }
     }
     aside{
