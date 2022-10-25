@@ -1,17 +1,11 @@
 .rels {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   gap: 30px;
 }
-
 .rels .rels__1 {
   width: 33.3%;
 }
-
 .rels img {
   padding-bottom: 30px;
   width: 310px;
@@ -19,34 +13,24 @@
 }
 
 .rels:nth-child(even) {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 576px) {
   .rels {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .rels__1 {
     width: 100%;
   }
   img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
-
 @media screen and (max-width: 1000px) {
   .container {
     max-width: 900px;
     margin: 0 auto;
   }
-}
-/*# sourceMappingURL=rels.css.map */
+}/*# sourceMappingURL=rels.css.map */

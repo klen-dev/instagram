@@ -30,7 +30,9 @@ section {
         flex-direction: row;
         align-items: center;
         overflow-x: scroll;
-        overflow-x: hidden;
+        &::-webkit-scrollbar{
+            height: 0;
+        }
         .section__histories-history {
             margin-left: 15px;
 
