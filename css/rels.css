@@ -15,12 +15,7 @@
 .rels img {
   padding-bottom: 30px;
   width: 310px;
-  height: 330px;
-}
-
-.rels .video {
-  background-color: red;
-  margin-top: -30px;
+  height: 290px;
 }
 
 .rels:nth-child(even) {
@@ -49,9 +44,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .rels__1 {
-    width: 20%;
-  }
   .container {
     max-width: 900px;
     margin: 0 auto;
